@@ -1,50 +1,57 @@
-[
+﻿[
   {
     "key": "numerique",
-    "label": "Num�rique",
+    "label": "Numérique",
     "type": "thematique",
     "slug": "numerique",
-    "quantityLabel": "Quantit�"
+    "quantityLabel": "Quantité",
+    "description": "Nombre d'outils numérique achetés lors du mandat ( ne considérer pas les outils achetés lors des mandats précédents)."
   },
   {
     "key": "alimentation",
     "label": "Alimentation (repas)",
     "type": "alimentation_repas",
     "slug": "alimentation",
-    "quantityLabel": "Nombre de repas"
+    "quantityLabel": "Nombre de repas",
+    "description": "Nombre de repas achetés lors du mandat. Renseignez le type de repas (ex: viande, poisson, végétarien) et la quantité de repas pour chaque type."
   },
   {
     "key": "boisson",
     "label": "Boisson",
     "type": "thematique",
     "slug": "boisson",
-    "quantityLabel": "Quantit�"
-  },
-  {
-    "key": "transport",
-    "label": "Transport",
-    "type": "transport",
-    "quantityLabel": "Nombre de trajets"
+    "quantityLabel": "Quantité",
+    "description": "Nombre de boissons achetées lors du mandat. Renseignez le type de boisson (ex: eau, soda, alcool) et la quantité de boissons pour chaque type."
   },
   {
     "key": "habillement",
     "label": "Habillement",
     "type": "thematique",
     "slug": "habillement",
-    "quantityLabel": "Quantit�"
+    "quantityLabel": "Quantité",
+    "description": "Nombre de vetements achetés lors du mandat. Renseignez le type de vêtement (ex: pantalon, chemise, robe) et la quantité de vêtements pour chaque type."
   },
   {
     "key": "usagenumerique",
-    "label": "Usage num�rique",
+    "label": "Usage numérique",
     "type": "thematique",
     "slug": "usagenumerique",
-    "quantityLabel": "Quantit�"
+    "quantityLabel": "Quantité",
+    "description": "Email : le nombres d'emails envoyés lors du mandat, Go de données dans le cloud : le nombre de Go de données stockées dans le cloud pendant le mandat,visioconférence : le nombre d'heures de réunion en visioconférence."
   },
   {
     "key": "mobilier",
     "label": "Mobilier",
     "type": "thematique",
     "slug": "mobilier",
-    "quantityLabel": "Quantit�"
+    "quantityLabel": "Quantité",
+    "description": "Nombre de meubles achetés lors du mandat. Renseignez le type de meuble (ex: chaise, table, armoire) et la quantité de meubles pour chaque type."
+  },
+  {
+    "key": "transport",
+    "label": "Transport",
+    "type": "transport",
+    "quantityLabel": "Nombre de trajets",
+    "description": "Renseignez la distance par trajet, le moyen de locomotion (ex: voiture, vélo, transport en commun) et le nombre de trajets. (le covoiturage compte le nombre de passager en plus du conducteur, ex: un trajet en voiture avec 1 conducteur et 3 passagers compte pour covoiturage 3 passagers pas 4 passagers)."
   }
 ]
