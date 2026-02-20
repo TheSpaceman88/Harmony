@@ -1,0 +1,50 @@
+[
+  {
+    "key": "numerique",
+    "label": "Numérique",
+    "type": "thematique",
+    "slug": "numerique",
+    "quantityLabel": "Quantité"
+  },
+  {
+    "key": "alimentation",
+    "label": "Alimentation (repas)",
+    "type": "alimentation_repas",
+    "slug": "alimentation",
+    "quantityLabel": "Nombre de repas"
+  },
+  {
+    "key": "boisson",
+    "label": "Boisson",
+    "type": "thematique",
+    "slug": "boisson",
+    "quantityLabel": "Quantité"
+  },
+  {
+    "key": "transport",
+    "label": "Transport",
+    "type": "transport",
+    "quantityLabel": "Nombre de trajets"
+  },
+  {
+    "key": "habillement",
+    "label": "Habillement",
+    "type": "thematique",
+    "slug": "habillement",
+    "quantityLabel": "Quantité"
+  },
+  {
+    "key": "usagenumerique",
+    "label": "Usage numérique",
+    "type": "thematique",
+    "slug": "usagenumerique",
+    "quantityLabel": "Quantité"
+  },
+  {
+    "key": "mobilier",
+    "label": "Mobilier",
+    "type": "thematique",
+    "slug": "mobilier",
+    "quantityLabel": "Quantité"
+  }
+]

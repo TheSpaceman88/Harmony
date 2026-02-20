@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bilan carbone associations</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&family=Source+Sans+3:wght@400;600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="page">
+      <header class="hero">
+        <div class="hero-content">
+          <p class="eyebrow">Bilan carbone association</p>
+          <h1>Questionnaire simple, résultat clair, export Excel.</h1>
+          <p class="lead">
+            Chaque catégorie est optionnelle. Renseignez ce que vous avez, nous calculons le détail et
+            générons un fichier Excel.
+          </p>
+          <div class="status" id="status"></div>
+        </div>
+        <div class="hero-panel">
+          <div class="panel-card">
+            <h2>Conseil rapide</h2>
+            <p>
+              Commencez par les postes les plus certains (repas, transport, numérique). Vous pourrez
+              compléter plus tard.
+            </p>
+            <div class="panel-meta">
+              <span>API Impact CO2</span>
+              <span>Export .xlsx</span>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <form id="bilan-form" class="form">
+          <div id="categories" class="categories"></div>
+          <div class="actions">
+            <button type="submit" class="btn-primary">Calculer le bilan</button>
+            <button type="button" id="download" class="btn-secondary" disabled>
+              Télécharger Excel
+            </button>
+          </div>
+        </form>
+
+        <section id="results" class="results hidden">
+          <div class="results-header">
+            <div>
+              <h2>Résultats</h2>
+              <p class="muted">Total en kgCO2e avec détail par catégorie.</p>
+            </div>
+            <div class="total">
+              <span>Total</span>
+              <strong id="total-kg">0</strong>
+              <small>kgCO2e</small>
+            </div>
+          </div>
+
+          <div class="table-wrapper">
+            <table id="results-table">
+              <thead>
+                <tr>
+                  <th>Catégorie</th>
+                  <th>Élément</th>
+                  <th>Quantité</th>
+                  <th>Unité</th>
+                  <th>Facteur (kgCO2e/unité)</th>
+                  <th>Émissions (kgCO2e)</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>Export Excel généré automatiquement après calcul.</p>
+      </footer>
+    </div>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
