@@ -18,6 +18,14 @@ function filterItemsForCategory(category, items) {
     return items.filter((item) => allowedSlugs.has(String(item.slug || '').toLowerCase()))
   }
 
+  if (category.slug === 'boisson') {
+    return items.filter((item) => {
+      const slug = String(item.slug || '').toLowerCase()
+      const name = String(item.name || '').toLowerCase()
+      return slug !== 'eau-du-robinet' && name !== 'eau du robinet'
+    })
+  }
+
   return items
 }
 
