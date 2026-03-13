@@ -20,7 +20,7 @@
     "label": "Boisson",
     "type": "thematique",
     "slug": "boisson",
-    "quantityLabel": "Quantité",
+    "quantityLabel": "Quantité en Litres",
     "description": "Nombre de boissons achetées lors du mandat. Renseignez le type de boisson (ex: eau, soda, alcool) et la quantité de boissons pour chaque type."
   },
   {
